@@ -1,5 +1,5 @@
 <template>
-	<v-toolbar app>
+	<v-toolbar color="transparent" fixed app>
 		<v-toolbar-title>
 			<span class="headline font-weight-bold">{{ title }}</span>
 			<span class="font-weight-light">

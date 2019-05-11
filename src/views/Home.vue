@@ -1,25 +1,16 @@
 <template>
-  <v-container
-    fill-height
-    fluid
-    class="red"
-  >
-    <v-layout
-      align-center
-      justify-center
-    >
-      <v-flex
-        xs12
-        class="text-xs-center"
-      >
-        <h1>Hi!</h1>
-      </v-flex>
-    </v-layout>
+  <v-container fill-height fluid>
+    <Welcome/>
+    <v-container>
+    </v-container>
   </v-container>
 </template>
 
 <script>
+  import Welcome from '../components/Home/Welcome';
+
   export default {
     name: 'Home',
+    components: { Welcome },
   };
 </script>
